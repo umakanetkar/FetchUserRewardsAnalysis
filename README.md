@@ -5,7 +5,7 @@ There are three datasets in this project. Each contains details about the purcha
 
 ## Receipts Data Schema
 
-• _id: uuid for this receipt
+• _id: uuid for this receipt \n
 •  bonusPointsEarned: Number of bonus points that were awarded upon receipt completion
 •  bonusPointsEarnedReason: event that triggered bonus points
 •  createDate: The date that the event was created
