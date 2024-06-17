@@ -40,5 +40,5 @@ There are three datasets in this project. Each contains details about the purcha
 •  topBrand: Boolean indicator for whether the brand should be featured as a 'top brand'
 •  name: Brand name
 
-## Repository Description
+# Repository Description
 Files 0.1 and 0.1 contain the scripts for table creation from raw json files. File 1 includes a relational diagram illustrating how i would model the data in a data warehouse. Files 2.1 and 2.2 contain the SQL scripts for table creation and the queries used to answer the listed questions. File 3.1 is the Jupyter notebook I used to analyze data quality issues, and file 4 contains a sam[ple Slack message that can be sent to stakeholders to enquire about the data quality issues.
