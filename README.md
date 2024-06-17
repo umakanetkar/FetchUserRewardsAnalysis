@@ -1,9 +1,21 @@
-This project analyzes the trends in shopping habits of a large customer base in a cosmopoliton region using the datasets of scanned receipts from the customers. The project aims to demonstrate the process of reviewing unstructured data (JSON data), designing a structured relational data model, generating queries to answer business questions, identifying data quality issues, and communicating the findings to stakeholders.
+# Fetch User Rewards Analysis
 
-#  Datasets description
+This project analyzes the trends in shopping habits of a large customer base in a cosmopoliton region using the large and complex datasets of scanned receipts from the customers. The project aims to demonstrate the process of reviewing unstructured data (JSON data), designing a structured relational data model, generating queries to answer business questions, identifying data quality issues, and communicating the findings to stakeholders.
+
+## Tools utilized and skills demonstrated
+• Data Modeling \
+• ETL\
+• MongoDB\
+• SQL\
+• Python
+
+
+
+
+##  Datasets description
 There are three datasets in this project. Each contains details about the purchases made by the customers based on the receipts scanned. The brief description of the datasets are as follows: 
 
-## Receipts Data Schema
+### Receipts Data Schema
 
 • _id: uuid for this receipt \
 •  bonusPointsEarned: Number of bonus points that were awarded upon receipt completion \
@@ -20,7 +32,7 @@ There are three datasets in this project. Each contains details about the purcha
 •  rewardsReceiptStatus: status of the receipt through receipt validation and processing\
 •  totalSpent: The total amount on the receipt\
 •  userId: string id back to the User collection for the user who scanned the receipt
-## Users Data Schema
+### Users Data Schema
 
 • _id: user Id\
 •  state: state abbreviation\
@@ -29,7 +41,7 @@ There are three datasets in this project. Each contains details about the purcha
 •  role: constant value set to 'CONSUMER'\
 •  active: indicates if the user is active; only Fetch will de-activate an account with this flag
 
-##  Brand Data Scheme
+###  Brand Data Scheme
   
 •  _id: brand uuid\
 •  barcode: the barcode on the item\
