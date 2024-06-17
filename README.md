@@ -1,4 +1,4 @@
-This project is analyzes the trends in shopping habits of a larges customer base in a cosmopoliton region using the datastes of scanned receipts from the customers. The project aims to demonstrate the process of reviewing unstructured data, designing a structured relational data model, generating queries to answer business questions, identifying data quality issues, and communicating the findings to stakeholders.
+This project analyzes the trends in shopping habits of a large customer base in a cosmopoliton region using the datasets of scanned receipts from the customers. The project aims to demonstrate the process of reviewing unstructured data (JSON data), designing a structured relational data model, generating queries to answer business questions, identifying data quality issues, and communicating the findings to stakeholders.
 
 #  Datasets description
 There are three datasets in this project. Each contains details about the purchases made by the customers based on the receipts scanned. The brief description of the datasets are as follows: 
