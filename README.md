@@ -19,7 +19,6 @@ This project demonstrates the process of reviewing unstructured data, designing 
   totalSpent: The total amount on the receipt
   userId: string id back to the User collection for the user who scanned the receipt
 # Users Data Schema
-## Download users.json.gz
   _id: user Id
   state: state abbreviation
   createdDate: when the user created their account
