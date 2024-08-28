@@ -1,7 +1,7 @@
 use uma;
 
--- Q3. When considering average spend from receipts with 'rewardsReceiptStatus’ of ‘Accepted’ or ‘Rejected’, which is greater?
--- Q4. When considering total number of items purchased from receipts with 'rewardsReceiptStatus’ of ‘Accepted’ or ‘Rejected’, which is greater?
+-- Q. When considering average spend from receipts with 'rewardsReceiptStatus’ of ‘Accepted’ or ‘Rejected’, which is greater?
+-- Q. When considering total number of items purchased from receipts with 'rewardsReceiptStatus’ of ‘Accepted’ or ‘Rejected’, which is greater?
 
 SELECT distinct(rewardsReceiptStatus) , count(*) 
 from receipts
@@ -19,7 +19,7 @@ GROUP BY rewardsReceiptStatus;
 -- distribution between both classes, more analysis and information is required for a definite conclusion
 
 
--- Q5. Which brand has the most spend among users who were created within the past 6 months?
+-- Q. Which brand has the most spend among users who were created within the past 6 months?
 
 -- Logic: Get max(createDate) and retrive user.id made 6 months from that date, match the user.id with receipts.userIds
 -- and get hold of receipts.id and then ultimately reach rewardItems.finalPrice and rewardItems.quantityPurchased to 
@@ -41,7 +41,7 @@ limit 1;
 
 -- Ans: The brand is Cracker Barrel Cheese with a total spend of 4080$.
 
--- Q6. Which brand has the most transactions among users who were created within the past 6 months?
+-- Q. Which brand has the most transactions among users who were created within the past 6 months?
 
 -- to get the brand with most number of transactions, we have to count the number of times that brand is mentioned
 select brands.name, count(*) as number_of_transactions
